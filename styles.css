@@ -6,7 +6,7 @@ body {
   background-color: #4B0082;
 }
 main{
-  margin-top: 100px;
+  margin-top: 15%;
 }
 header{
   background-color:  #1E90FF;
@@ -26,8 +26,8 @@ header h1{
 }
 
 #game {
-  max-width: 500px;
-  max-height: 450px;
+  max-width: 70%;
+  max-height: 600px;
   background-color: #ffffff;
   color: #ffffff;
   margin: 30px auto 0px;
