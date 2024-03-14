@@ -1,30 +1,35 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
 }
+
 body {
   background-color: #4B0082;
-  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main{
+
+main {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 200px);
+  min-height: calc(100vh - 300px);
 }
-header{
-  background-color:  #1E90FF;
+
+header {
+  background-color: #1E90FF;
   width: 100%;
-  height: 100px;
-  display: grid;
-  place-items: center;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-header h1{
+
+header h1 {
   color: white;
   font-size: 2em;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
 #text {
   background-color: #228B22;
   color: #ffffff;
@@ -34,10 +39,10 @@ header h1{
 #game {
   width: 100%;
   max-width: 600px;
-  max-height: 400px; 
+  max-height: 400px;
   background-color: #ffffff;
-  color: #ffffff;
-  margin: 30px auto 0px;
+  color: #000000; /* Changed color to black for better readability */
+  margin: 30px auto 0;
   padding: 10px;
   font-size: 1.2rem;
 }
@@ -69,21 +74,19 @@ button {
   background-color: #feac32;
   background-image: linear-gradient(#fecc4c, #ffac33);
   border: 3px solid #feac32;
-  font-size: max(1.5vw,1.1rem);
   font-weight: 500;
 }
-footer{
+
+footer {
   background-color: orangered;
   width: 100%;
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: grid;
-  place-items: center;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-footer p{
+
+footer p {
   color: white;
   font-size: 1.3em;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
